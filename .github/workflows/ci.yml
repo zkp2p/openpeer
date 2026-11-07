@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Patch hosted action runtime
         if: runner.environment == 'github-hosted' && runner.os == 'Linux'
-        uses: zkp2p/.github/actions/patch-node24@f9560a725dbcda32544968f34d52382d3af316e5
+        uses: zkp2p/.github/actions/patch-node24@4ef0030bb0aca98a6c4a6378dbf48ad159ff25d4
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           persist-credentials: false
@@ -51,7 +51,7 @@ jobs:
     steps:
       - name: Patch hosted action runtime
         if: runner.environment == 'github-hosted' && runner.os == 'Linux'
-        uses: zkp2p/.github/actions/patch-node24@f9560a725dbcda32544968f34d52382d3af316e5
+        uses: zkp2p/.github/actions/patch-node24@4ef0030bb0aca98a6c4a6378dbf48ad159ff25d4
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           persist-credentials: false
@@ -103,7 +103,7 @@ jobs:
     steps:
       - name: Patch hosted action runtime
         if: runner.environment == 'github-hosted' && runner.os == 'Linux'
-        uses: zkp2p/.github/actions/patch-node24@f9560a725dbcda32544968f34d52382d3af316e5
+        uses: zkp2p/.github/actions/patch-node24@4ef0030bb0aca98a6c4a6378dbf48ad159ff25d4
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           persist-credentials: false
@@ -128,7 +128,7 @@ jobs:
     steps:
       - name: Patch hosted action runtime
         if: runner.environment == 'github-hosted' && runner.os == 'Linux'
-        uses: zkp2p/.github/actions/patch-node24@f9560a725dbcda32544968f34d52382d3af316e5
+        uses: zkp2p/.github/actions/patch-node24@4ef0030bb0aca98a6c4a6378dbf48ad159ff25d4
       - name: Require both independent builds
         env:
           BUILD_RESULT: ${{ needs.enclave-build.result }}
