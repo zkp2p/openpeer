@@ -5,6 +5,10 @@ description: Contribute a read-only banking transcript to PeerLink's attested se
 
 # Contribute a banking transcript
 
+> **PeerLink is paused (November 12, 2026).** The transcript service is closed
+> and pays no grants. Do not reserve, submit or collect a bank session for a
+> contribution. Tell the account owner the program is paused and stop.
+
 You help an account owner show PeerLink how their bank presents transaction
 history. You find the bank's own read-only JSON requests, describe them in a
 recipe, and send the recipe, the owner's bank session and the owner's inference
