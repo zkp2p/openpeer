@@ -1,21 +1,24 @@
 # PeerLink
 
-**Contribute your bank. Earn USDC for useful evidence.**
+> **Paused (November 12, 2026).** PeerLink is temporarily paused. The transcript
+> service is closed to new contributions, grants are no longer paid, and the
+> website and developer docs are offline. Nothing submitted now will be accepted
+> or rewarded. This repository stays public for reference. Watch it for any
+> future update.
 
-PeerLink collects banking transcripts from account owners. Your local agent
-finds the read-only requests your bank's own site uses to show transaction
-history. An attested AWS Nitro enclave replays them with your session, keeps a
-value-free transcript of the request and response structure, and pays a fixed
-$10 USDC on Base when the transcript is useful. Peer engineers turn
-accepted transcripts into Curator metadata and attestation transformers. You do
-not write a provider or open a pull request.
+PeerLink collected banking transcripts from account owners. A local agent
+found the read-only requests a bank's own site uses to show transaction
+history. An attested AWS Nitro enclave replayed them with the owner's session,
+kept a value-free transcript of the request and response structure, and paid a
+fixed $10 USDC on Base when the transcript was useful.
 
-[Website](https://link.peer.xyz) · [Contribution skill](skills/contribute-transcript/SKILL.md) ·
-[Recipe guide](docs/transcript-recipes.md) · [Campaign issues](https://github.com/zkp2p/peer-link/issues/64) ·
-[Rewards](docs/incentives.md) · [Privacy](docs/privacy.md) ·
-[Developer docs](https://docs.peer.xyz/developer/peer-link)
+[Contribution skill](skills/contribute-transcript/SKILL.md) ·
+[Recipe guide](docs/transcript-recipes.md) · [Rewards](docs/incentives.md) ·
+[Privacy](docs/privacy.md)
 
-## Grants are open: get paid USDC for your bank
+The rest of this README describes the program as it ran before the pause.
+
+## Grants (paused): how the program paid
 
 Peer pays contributor grants in USDC on Base. There is no application and no
 review queue: the enclave checks your transcript and sends the grant to your

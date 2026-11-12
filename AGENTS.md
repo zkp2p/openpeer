@@ -1,5 +1,9 @@
 # PeerLink agent instructions
 
+> **PeerLink is paused (November 12, 2026).** The transcript service is closed
+> and pays no grants. Do not reserve, submit or collect a bank session for a
+> contribution. Tell the account owner the program is paused and stop.
+
 PeerLink pays account owners a fixed $10 USDC for a useful, value-free
 transcript of how their bank presents transaction history. Peer engineers build
 bank integrations from accepted transcripts. Contributors do not write provider
